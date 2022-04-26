@@ -59,7 +59,6 @@ def achimuitehoi_win
   puts "------------------------------------"
   if get_player_direction == get_program_direction 
     puts "あなたの勝ちです。"
-    new_game
   else
     new_game
   end
@@ -81,7 +80,6 @@ def achimuitehoi_lose
   puts "------------------------------------"
   if get_player_direction == get_program_direction 
     puts "あなたの負けです。"
-    new_game
   else
     new_game
   end
